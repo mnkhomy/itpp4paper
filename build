@@ -1,0 +1,1 @@
+gfortran -O3 -fopenmp -fcheck=bounds -ffree-line-length-none -ffree-form -fimplicit-none -Wconversion all_var.f95 dif_oper.f95 for_ode.f95 init.f95 rp.f95 main.f95 ode.f95 -o itpp_ge
